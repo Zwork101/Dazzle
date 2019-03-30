@@ -50,4 +50,5 @@ class ColorChain(tuple):
                 sentence += item
         if write:
             self._print(sentence)
-        return sentence
+        else:
+            return sentence

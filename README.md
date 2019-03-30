@@ -29,6 +29,9 @@ that any excess input will be ignored.
 
 ## Pitfalls
 
+When you call a color chain, you pass `write=False` in so that it doesn't print the result. If write is True, it won't
+output anything. If False it will output that string.
+
 **Don't**
  * Start it with a normal string, use `t(<string>)` if you need to do that.
  * Use with statement with inconsistent print functions.

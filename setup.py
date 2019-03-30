@@ -15,8 +15,7 @@ DESCRIPTION = 'Make your output sparkle, without long repetitive code'
 URL = 'https://github.com/Zwork101/Dazzle'
 EMAIL = 'zwork101@gmail.com'
 AUTHOR = 'Nathan Zilora'
-REQUIRES_PYTHON = '>=3.6.0'
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -67,7 +66,6 @@ setup(
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=EMAIL,
-    python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=find_packages(exclude=('venv',)),
     # If your package is a single module, use this instead of 'packages':
